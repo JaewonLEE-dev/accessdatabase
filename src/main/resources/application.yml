@@ -1,0 +1,15 @@
+server:
+  port: 2345
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://52.78.243.24:5432/postgres
+    username: postgres
+    password: 2456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
